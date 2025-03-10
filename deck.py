@@ -66,8 +66,7 @@ class Deck():
 if __name__ == "__main__":
     deck1 = Deck('cards.csv')
 
+    # 💻 test the methods
+
     print(deck1.get_num_cards())
-    print(deck1.get_top_card())
-    print(deck1.get_top_card())
-    print(deck1.get_top_card())
-    print(deck1.get_num_cards())
+ 

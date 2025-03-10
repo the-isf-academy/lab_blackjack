@@ -128,8 +128,13 @@ class Blackjack:
 
 if __name__ == "__main__":
     blackjack = Blackjack()
-    print(blackjack.get_hand_value(0), blackjack.get_hand_value(1))
-    print(blackjack.get_winner())
+
+    # 💻 experiment with the attributes and methods
+    # ensure you understand how the game works
+
+    blackjack.deal_initial_cards()
+    for card in blackjack.current_player_hand():
+        print(card)
  
 
 

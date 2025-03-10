@@ -25,5 +25,7 @@ if __name__ == "__main__":
     c1 = Card('Hearts',4)
     print(c1)
 
+    # 💻 try making another instance of a Card
+
     c2 = Card('Spades','Ace')
     print(c2)
